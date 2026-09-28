@@ -11,3 +11,7 @@ git add .
 git commit -m "commit message"
 
 git log
+
+git remote add origin " link "
+git branch(main,master)
+git push origin master
