@@ -1,17 +1,22 @@
 GIT COMMAND
 
+>? LOCAL REPOSITORY (GIT)?<
 
 git config --global user.name "user_name"
 git config --global user.email "email_id"
 
 
-git init
-git status
-git add .
-git commit -m "commit message"
+git init -- for initlizing
+git status --for listing untracked files
+git add . --for adding untracked files
+git commit -m "commit message" -- to add the files into local repository
 
-git log
 
-git remote add origin " link "
-git branch(main,master)
-git push origin master
+>? REOMTE REPOSITORY (GITHUB)?<
+
+git log --for commit history
+git remote -v  -- for showing the details of remote repository
+
+git remote add origin " link " -- for connecting local and remote repo
+git branch(main,master) --to find if the branch name is main or master
+git push origin master -- to push any changes made inn local repo
