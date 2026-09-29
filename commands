@@ -20,3 +20,19 @@ git remote -v  -- for showing the details of remote repository
 git remote add origin " link " -- for connecting local and remote repo
 git branch(main,master) --to find if the branch name is main or master
 git push origin master -- to push any changes made inn local repo
+
+git clone "remote repository path"
+
+Branching - creating multiple branches in a common git repository so
+that multiple developers can work on their local branch where different
+features independently without changing directly to the main branch
+
+
+>? BRANCHING<?
+
+git branch
+git branch branchname
+git switch branchname  -- two commands
+
+git switch -c branchname -- single commands
+
